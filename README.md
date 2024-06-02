@@ -1,13 +1,12 @@
-<h1>Управление инвентаризацией товаров</h1>
+# Inventory Management
 
-Программа позволяет добавлять товары в инвентарь, изменять количество товаров и выводить информацию о наличии товаров.
+The program allows adding products to the inventory, updating the quantity of products, and displaying information about product availability.
 
-Класс Product имеет у товаров: название, цена, количество.
+The `Product` class includes the following attributes for products: name, price, quantity.
 
-
-InventoryManager используются следующие методы:
-1. Добавляет товар в инвентарь.
-2. Удаляет товар из инвентаря по его названию.
-3. Обновляет количество товара по его названию.
-4. Проверяет наличие товара по его названию и выводит информацию о нем.
-5. Выводит список всех товаров в инвентаре.
+The `InventoryManager` uses the following methods:
+1. Adds a product to the inventory.
+2. Removes a product from the inventory by its name.
+3. Updates the quantity of a product by its name.
+4. Checks the availability of a product by its name and displays information about it.
+5. Displays a list of all products in the inventory.
